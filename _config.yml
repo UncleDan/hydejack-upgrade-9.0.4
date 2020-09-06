@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://<username>.github.io
+url:                   https://www.danielelolli.it
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -20,22 +20,22 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  it
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Daniele Lolli (UncleDan)
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Professionista nella informatica per gli Studi Professionali, in particolare software paghe.
+  Webmaster a tempo perso. Papà felice. Appassionato di Tecnologia, Basket e Jeep.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Diario personale di un webmaster a tempo perso.
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [web, linux, basket, tech, jeep]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -45,19 +45,26 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Daniele Lolli (UncleDan)
+  email:               uncledan@danielelolli.it
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             uncledan74
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
   - title:             About
     url:               /about/
+  - title:             Contatti
+    url:               /contatti/
+  - title:             File Archive
+    url:               https://filedn.com/lAHAHtmqjaTjJxFAtUSMfN8/files/
+  - title:             Gallery
+    url:               /gallery/
+  - title:             Guida MP3
+    url:               /guida-mp3/
+  - title:             Hattrick Music
+    url:               /frank70-hattrick-music/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
